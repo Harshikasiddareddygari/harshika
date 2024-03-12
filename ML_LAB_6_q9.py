@@ -22,7 +22,7 @@ def initialize_parameters(input_size, hidden_size, output_size):
 # Backpropagation algorithm
 def backpropagation(X, y, learning_rate, epochs, convergence_error):
     input_size = X.shape[1]
-    hidden_size = 4  # You can adjust the number of hidden units
+    hidden_size = 4  #  adjust the number of hidden units
     output_size = 2  # Updated for two output nodes
 
     # Initialize weights and biases
